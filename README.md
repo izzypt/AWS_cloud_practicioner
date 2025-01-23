@@ -15,6 +15,8 @@ To pass the **AWS Certified Cloud Practitioner** exam, you need to focus on gain
      - **Technology** (33%)
      - **Billing and Pricing** (16%)
 
+- [Exam guide pdf (23/01/2025)](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)
+
 ---
 
 ### 2. **AWS Training Resources**
