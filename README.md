@@ -8,6 +8,8 @@ It’s a great first step for anyone considering a career in cloud computing or 
 
 ![image](https://github.com/user-attachments/assets/62fa8dc1-975e-40ae-81c8-8ccc366bc7db)
 
+![image](https://github.com/user-attachments/assets/8b8a9762-7d73-4a71-a5d9-5d7fa17d840e)
+
 
 
 # List of items
