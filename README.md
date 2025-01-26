@@ -91,5 +91,7 @@ Focus on these areas:
 
 # List of items
 
-- Introduction
-- Cloud Concepts
+- AWS Global Infrastructrure
+
+  ![image](https://github.com/user-attachments/assets/b8f65318-b75d-487f-8477-d9b927ec8917)
+
