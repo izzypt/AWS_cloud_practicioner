@@ -91,9 +91,10 @@ Focus on these areas:
 
 # List of items
 
-- AWS Global Infrastructrure
+- [AWS Global Infrastructure](#1)
+- [AWS Well-Architected](#2)
 
-
+<a id="1"></a>
 # AWS Global Infrastructrure
 
 Deliver a cloud infrastrucutre, companies can depend on no matter their size.
@@ -112,3 +113,6 @@ Deliver a cloud infrastrucutre, companies can depend on no matter their size.
 - **AWS Availability Zones (AZs)** are physically separate data centers within a Region, connected via low-latency networks, ensuring fault isolation and high availability.
 
 ![image](https://github.com/user-attachments/assets/2121b7e1-781b-47ba-a22a-0ffadffd8aa1)
+
+<a id="2"></a>
+# AWS Well-Architected
