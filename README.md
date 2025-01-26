@@ -138,3 +138,5 @@ Helps cloud architects design infrastructure that is built arround 6 pillars:
   - Minimizing environmental impact
   
 ![image](https://github.com/user-attachments/assets/058c0b8b-2444-4ab6-a34e-b29405fa37cf)
+
+![image](https://github.com/user-attachments/assets/6757c11e-6dea-436c-9da5-bfa7423c69a5)
