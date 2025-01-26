@@ -120,10 +120,21 @@ Deliver a cloud infrastrucutre, companies can depend on no matter their size.
 Helps cloud architects design infrastructure that is built arround 6 pillars:
 
 1 - Operational excellence
-2 - Security
-3 - Reliability
-4 - Performance efficiency
-5 - Cost optimization
-6 - Sustainability
+  - Focuses on running and monitoring systems and continually improving processes and procedures.
 
+2 - Security
+  - Focuses on protecting information and systems
+
+3 - Reliability
+  - Focuses on ensuring workloads perform their assigned functions and recover qucickly from any faillure to meet demands.
+
+4 - Performance efficiency
+  - Focuses on selecting suitable resource types and sizes. Monitoring performance and maintining efficiency.
+
+5 - Cost optimization
+  - Focuses on understanding spending trends, contorlling fund allocation and scaling to meet the business needs without overspending.
+
+6 - Sustainability
+  - Minimizing environmental impact
+  
 ![image](https://github.com/user-attachments/assets/058c0b8b-2444-4ab6-a34e-b29405fa37cf)
