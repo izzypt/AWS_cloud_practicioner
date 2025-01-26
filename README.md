@@ -107,3 +107,6 @@ Deliver a cloud infrastrucutre, companies can depend on no matter their size.
 
   ![image](https://github.com/user-attachments/assets/b8f65318-b75d-487f-8477-d9b927ec8917)
 
+- **AWS Region**s are geographically isolated areas containing multiple data centers, designed to provide services close to users and meet regulatory requirements. 
+
+- **AWS Availability Zones (AZs)** are physically separate data centers within a Region, connected via low-latency networks, ensuring fault isolation and high availability.
