@@ -116,3 +116,14 @@ Deliver a cloud infrastrucutre, companies can depend on no matter their size.
 
 <a id="2"></a>
 # AWS Well-Architected
+
+Helps cloud architects design infrastructure that is built arround 6 pillars:
+
+1 - Operational excellence
+2 - Security
+3 - Reliability
+4 - Performance efficiency
+5 - Cost optimization
+6 - Sustainability
+
+![image](https://github.com/user-attachments/assets/058c0b8b-2444-4ab6-a34e-b29405fa37cf)
