@@ -93,5 +93,17 @@ Focus on these areas:
 
 - AWS Global Infrastructrure
 
+
+# AWS Global Infrastructrure
+
+Deliver a cloud infrastrucutre, companies can depend on no matter their size.
+
+![image](https://github.com/user-attachments/assets/b1861a71-115b-464e-b0b8-4911b78e1ee7)
+
+- 105 availability zones
+
+- 33 geographic regions
+
+
   ![image](https://github.com/user-attachments/assets/b8f65318-b75d-487f-8477-d9b927ec8917)
 
