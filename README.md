@@ -265,3 +265,72 @@ These storage and networking options make EC2 a powerful and adaptable service f
 <a id="4"></a>
 # AWS EBS - Elastic Block Store
 
+### **AWS Elastic Block Store (EBS) Summary**
+
+Amazon Elastic Block Store (EBS) is a scalable and high-performance block storage service designed for use with Amazon EC2 instances. It provides persistent storage that retains data independently of the EC2 instance lifecycle. Here are the key features and details:
+
+---
+
+### **Key Features**  
+1. **Persistent and Reliable Storage**:  
+   - EBS volumes store data redundantly across multiple physical devices in an Availability Zone to ensure durability.  
+   - Data persists even after the associated EC2 instance is stopped or terminated.  
+
+2. **Types of EBS Volumes**:  
+   - EBS offers multiple volume types optimized for different use cases:
+     - **General Purpose SSD (gp3, gp2)**: Cost-effective storage for general workloads (databases, boot volumes).  
+     - **Provisioned IOPS SSD (io1, io2)**: High-performance storage for I/O-intensive applications like transactional databases.  
+     - **Throughput Optimized HDD (st1)**: Low-cost, high-throughput storage for big data and analytics.  
+     - **Cold HDD (sc1)**: Low-cost storage for infrequently accessed data.  
+
+3. **Snapshot Capability**:  
+   - EBS volumes can be backed up as snapshots stored in Amazon S3.  
+   - Snapshots can be used to restore volumes, migrate data, or create new volumes.  
+
+4. **Scalability and Elasticity**:  
+   - Volumes can be resized dynamically without downtime, allowing easy scaling of storage.  
+
+5. **Encryption**:  
+   - EBS supports encryption at rest and in transit using AWS-managed or customer-managed keys (via AWS KMS).  
+   - Encryption includes volume data, snapshots, and all data in transit.  
+
+6. **Performance Optimization**:  
+   - Volumes can be optimized for throughput or IOPS, depending on workload needs.  
+   - gp3 volumes allow customization of IOPS and throughput independently of storage size.  
+
+7. **Attach and Detach Flexibility**:  
+   - EBS volumes can be attached to or detached from EC2 instances, even across different instances within the same Availability Zone.  
+
+---
+
+### **Use Cases**  
+1. **Boot Volumes**:  
+   - EBS is commonly used as the primary storage for booting EC2 instances.  
+
+2. **Databases**:  
+   - High-performance volumes like io2/io1 are ideal for database workloads requiring low latency and high throughput.  
+
+3. **Data Warehousing**:  
+   - st1 volumes offer affordable storage for large-scale data processing and analytics.  
+
+4. **Backup and Disaster Recovery**:  
+   - EBS snapshots enable efficient backups and recovery solutions.  
+
+---
+
+### **Pricing**  
+- EBS pricing is based on volume type, size, and provisioned performance (IOPS/throughput).  
+- Snapshots are billed separately based on the storage used in S3.  
+
+---
+
+### **Advantages**  
+- **High Availability**: Redundant storage within a single Availability Zone.  
+- **Flexibility**: Customizable volumes to fit workload demands.  
+- **Integration**: Seamlessly integrates with EC2 and other AWS services.  
+- **Data Durability**: Snapshots enable easy backup and restoration.  
+
+EBS provides a versatile and dependable block storage solution for a wide variety of workloads, making it an essential component for managing EC2 instances efficiently.
+
+
+![image](https://github.com/user-attachments/assets/e7340704-e47c-4bf6-80a9-66c9b8fcbf58)
