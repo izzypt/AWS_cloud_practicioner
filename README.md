@@ -93,6 +93,7 @@ Focus on these areas:
 
 - [AWS Global Infrastructure](#1)
 - [AWS Well-Architected](#2)
+- [AWS EC2](#3)
 
 <a id="1"></a>
 # AWS Global Infrastructrure
@@ -140,3 +141,47 @@ Helps cloud architects design infrastructure that is built arround 6 pillars:
 ![image](https://github.com/user-attachments/assets/058c0b8b-2444-4ab6-a34e-b29405fa37cf)
 
 ![image](https://github.com/user-attachments/assets/6757c11e-6dea-436c-9da5-bfa7423c69a5)
+
+<a id="3"></a>
+# AWS EC2
+
+![image](https://github.com/user-attachments/assets/b1078f85-8fd9-4722-83a2-86f891ffe2f9)
+
+**Amazon EC2 Basics Summary**  
+
+Amazon Elastic Compute Cloud (EC2) is a core service of AWS that provides scalable, on-demand computing power in the cloud. It allows users to run virtual servers, known as instances, to host applications, process data, or handle workloads. Here are the key basics of EC2:  
+
+1. **Instances**:  
+   - EC2 instances are virtual servers that can be launched and configured as needed.  
+   - Instances come in various types (e.g., General Purpose, Compute Optimized, Memory Optimized) to suit specific workloads.  
+
+2. **AMI (Amazon Machine Image)**:  
+   - An AMI is a pre-configured template that includes the operating system and any software or configuration needed to launch an instance.  
+
+3. **Instance Sizes**:  
+   - Instances have different sizes (CPU, memory, and storage capacities) to accommodate small to large-scale applications.  
+
+4. **Elasticity and Scalability**:  
+   - EC2 supports dynamic scaling, enabling you to add or remove instances based on workload demand.  
+
+5. **Pricing Models**:  
+   - **On-Demand**: Pay per hour or second, with no long-term commitment.  
+   - **Reserved**: Commit to a fixed term (1 or 3 years) for significant cost savings.  
+   - **Spot Instances**: Purchase unused capacity at a discount, suitable for flexible and fault-tolerant workloads.  
+
+6. **Storage**:  
+   - EC2 instances use Amazon Elastic Block Store (EBS) for persistent storage. Instance Store is an alternative for temporary, non-persistent storage.  
+
+7. **Networking**:  
+   - EC2 instances can be deployed within a Virtual Private Cloud (VPC) to provide secure, isolated networking. Public or private IPs can be assigned.  
+
+8. **Security**:  
+   - EC2 uses security groups (firewalls) to control inbound and outbound traffic. Key pairs (SSH keys) ensure secure access to instances.  
+
+9. **Load Balancing and Auto Scaling**:  
+   - Amazon EC2 works with Elastic Load Balancing (ELB) to distribute traffic and Auto Scaling to automatically adjust instance counts based on demand.  
+
+10. **Monitoring**:  
+    - Amazon CloudWatch provides monitoring of EC2 instances, offering metrics like CPU usage, disk I/O, and network traffic.  
+
+EC2 is highly flexible, allowing users to scale resources up or down to match their application needs, ensuring cost-efficiency and adaptability in the cloud.
