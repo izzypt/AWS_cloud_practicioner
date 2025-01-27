@@ -185,3 +185,5 @@ Amazon Elastic Compute Cloud (EC2) is a core service of AWS that provides scalab
     - Amazon CloudWatch provides monitoring of EC2 instances, offering metrics like CPU usage, disk I/O, and network traffic.  
 
 EC2 is highly flexible, allowing users to scale resources up or down to match their application needs, ensuring cost-efficiency and adaptability in the cloud.
+
+![image](https://github.com/user-attachments/assets/fcb54f6e-9720-4b05-ac05-b0fb66991a7d)
