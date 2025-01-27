@@ -94,6 +94,7 @@ Focus on these areas:
 - [AWS Global Infrastructure](#1)
 - [AWS Well-Architected](#2)
 - [AWS EC2](#3)
+- [AWS EBS - Elastic Block Store](#4)
 
 <a id="1"></a>
 # AWS Global Infrastructrure
@@ -187,3 +188,80 @@ Amazon Elastic Compute Cloud (EC2) is a core service of AWS that provides scalab
 EC2 is highly flexible, allowing users to scale resources up or down to match their application needs, ensuring cost-efficiency and adaptability in the cloud.
 
 ![image](https://github.com/user-attachments/assets/fcb54f6e-9720-4b05-ac05-b0fb66991a7d)
+
+**EC2 Storage and Networking Summary**  
+
+Amazon EC2 provides flexible storage and networking options to meet diverse application needs. Here’s a breakdown:  
+
+### **Storage Options**  
+
+1. **Elastic Block Store (EBS)**:  
+   - Provides persistent block storage for EC2 instances.  
+   - Data persists even after the instance is stopped or terminated.  
+   - Storage types include:
+     - **General Purpose SSD (gp3, gp2)**: Balanced performance for most workloads.  
+     - **Provisioned IOPS SSD (io1, io2)**: High performance for I/O-intensive applications.  
+     - **Throughput Optimized HDD (st1)**: Low-cost, high-throughput for big data and analytics.  
+     - **Cold HDD (sc1)**: Low-cost storage for infrequently accessed data.  
+
+2. **Instance Store**:  
+   - Temporary, high-speed storage directly attached to the instance.  
+   - Data is lost if the instance stops or terminates.  
+
+3. **Amazon S3**:  
+   - Object storage for scalable and durable storage of unstructured data.  
+   - Suitable for backups, media storage, and data lakes.  
+
+4. **Elastic File System (EFS)**:  
+   - Managed file storage for EC2 instances.  
+   - Automatically scales storage capacity as needed.  
+   - Provides shared access across multiple instances.  
+
+5. **AWS Storage Gateway**:  
+   - Hybrid solution for on-premises and cloud storage integration.  
+
+---
+
+### **Networking in EC2**  
+
+1. **Virtual Private Cloud (VPC)**:  
+   - EC2 instances are deployed within a VPC for secure and isolated networking.  
+   - Each instance gets private IPs within the VPC and optionally a public IP for internet access.  
+
+2. **Elastic Network Interface (ENI)**:  
+   - Virtual network interfaces that can be attached to EC2 instances.  
+   - Used for high availability and fault-tolerant setups.  
+
+3. **Elastic IP Addresses (EIPs)**:  
+   - Static, public IP addresses that can be assigned to EC2 instances for consistent accessibility.  
+
+4. **Security Groups**:  
+   - Act as virtual firewalls, controlling inbound and outbound traffic at the instance level.  
+
+5. **Network Access Control Lists (NACLs)**:  
+   - Stateless firewalls that operate at the subnet level, providing additional layer security.  
+
+6. **Elastic Load Balancing (ELB)**:  
+   - Distributes incoming traffic across multiple EC2 instances to ensure high availability and fault tolerance.  
+
+7. **Amazon PrivateLink**:  
+   - Enables secure private connectivity to AWS services and applications without using the public internet.  
+
+8. **AWS Direct Connect**:  
+   - Provides a dedicated network connection between on-premises environments and AWS for high throughput and low latency.  
+
+9. **Elastic Fabric Adapter (EFA)**:  
+   - Enhances high-performance computing (HPC) applications by improving network performance.  
+
+10. **AWS Global Accelerator**:  
+    - Boosts application availability and performance by routing traffic through the AWS global network.  
+
+### **Key Features**  
+- EC2 instances can leverage **high-speed networking** with options like Enhanced Networking (SR-IOV) and AWS Nitro System.  
+- Networking and storage services are designed to scale dynamically, supporting high throughput and low-latency demands.  
+
+These storage and networking options make EC2 a powerful and adaptable service for both simple and complex workloads.
+
+<a id="4"></a>
+# AWS EBS - Elastic Block Store
+
