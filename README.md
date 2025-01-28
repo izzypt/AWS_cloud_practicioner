@@ -1,6 +1,6 @@
 # AWS_cloud_practicioner
 
-The AWS Certified Cloud Practitioner certificate is an entry-level certification offered by Amazon Web Services (AWS) designed for individuals who want to build a foundational understanding of the AWS Cloud.
+The AWS Certified Cloud Practitioner certificate is an entry-level certification "offered" (100$) by Amazon Web Services (AWS) designed for individuals who want to build a foundational understanding of the AWS Cloud.
 
 It’s a great first step for anyone considering a career in cloud computing or seeking to understand how AWS works in the broader context of IT and business.
 
