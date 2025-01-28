@@ -125,6 +125,8 @@ Deliver a cloud infrastrucutre, companies can depend on no matter their size.
 
 ![image](https://github.com/user-attachments/assets/485442bc-6029-47c8-94b0-62b140c251d4)
 
+<img width="1574" alt="image" src="https://github.com/user-attachments/assets/e7f883f0-a27a-4bc4-aa04-3be286767f08" />
+
 
 <a id="2"></a>
 # AWS Well-Architected
