@@ -13,6 +13,7 @@ It’s a great first step for anyone considering a career in cloud computing or 
 - [AWS EC2](#3)
 - [AWS EBS - Elastic Block Store](#4)
 - [AWS VPC - Virtual Private Cloud](#5)
+- [AWS Cloud Economics](#6)
 
 
 
@@ -455,3 +456,21 @@ A **route table** is a critical component of a cloud or network infrastructure t
 - Segmenting traffic for multi-region or hybrid architectures.
 
 By customizing route tables, you can fine-tune how your network traffic flows, ensuring security, performance, and proper routing for different workloads.
+
+
+<a id="6"></a>
+# AWS Cloud Economics
+
+AWS offers you a pay-as-you-go approach for pricing for most of our cloud services.
+
+You pay only for the individual services you need, for as long as you use them and without requiring ling-term contracts.
+
+AWS pricing is similar to how you pay for utilities such as water and electricity.
+
+### key principles
+
+- start early with cost optimization
+- Maximize the power of flexibility
+- Use the right pricing model
+
+<img width="1548" alt="image" src="https://github.com/user-attachments/assets/92870573-ccf7-4119-8eeb-686a75892f0b" />
