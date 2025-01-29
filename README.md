@@ -474,3 +474,11 @@ AWS pricing is similar to how you pay for utilities such as water and electricit
 - Use the right pricing model
 
 <img width="1548" alt="image" src="https://github.com/user-attachments/assets/92870573-ccf7-4119-8eeb-686a75892f0b" />
+
+With AWS your resources are elastic.
+
+Meaning you can provision the services that you need on demand and you pay only for what you use.
+
+Your infrastructure matches your demand, a concept called **scaling**.
+
+Using the AWS Pricing calculator, you can generate an estimate with no commitment and explore AWS services and pricing for your architecture need.
